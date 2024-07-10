@@ -73,3 +73,45 @@ p{
     font-weight: bold;
     color: hsla(0, 0%, 0%, 0.75);
 }
+
+/* Media Queries for larger screens */
+@media (min-width: 600px) {
+    .cityInput {
+        font-size: 2rem;
+        width: 300px;
+    }
+
+    button[type="submit"] {
+        font-size: 2rem;
+        width: auto;
+    }
+
+    .card {
+        padding: 50px;
+        min-width: 300px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .cityDisplay, .tempDisplay {
+        font-size: 3.5rem;
+    }
+
+    .descDisplay {
+        font-size: 2rem;
+    }
+
+    .weatherEmoji {
+        font-size: 7.5rem;
+    }
+
+    .errorDisplay {
+        font-size: 2.5rem;
+    }
+}
